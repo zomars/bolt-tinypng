@@ -1,3 +1,7 @@
+.tinypng-batch-options {
+    width: 15%;
+}
+
 /**
  * the spinner container class
  */
@@ -120,6 +124,10 @@
     animation: removed-item-animation .6s cubic-bezier(.55,-0.04,.91,.94) forwards;
 }
 
+.removed-file-leave-active {
+    animation: removed-item-animation .6s cubic-bezier(.55,-0.04,.91,.94) forwards;
+}
+
 @keyframes removed-item-animation {
     from {
         opacity: 1;
@@ -131,5 +139,25 @@
         transform: scale(0);
     }
 }
+
+/*.tinypng-button-list {*/
+    /*list-style: none;*/
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+/*@media screen and (max-width: 969px){*/
+    /*.tinypng-button-list {*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    /*}*/
+/*}*/
+
+@media screen and (max-width: 1143px){
+    .tinypng-button-group {
+        margin-bottom: 2.5rem;
+    }
+}
+
 
 
