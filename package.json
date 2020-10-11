@@ -27,7 +27,7 @@
     "Firefox"
   ],
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.20.0",
     "cpx": "^1.5.0",
     "popper.js": "^1.12.5",
     "uiv": "^0.12.0",
